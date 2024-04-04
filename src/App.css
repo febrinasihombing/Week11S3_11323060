@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  background-color: hsl(195, 40%, 96%); /* Ganti warna background */
+  color: #333;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%; /* Perbesar lebar tabel */
+  margin: 0 auto;
+  background-color: #b1e408; /* Ganti warna background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambah bayangan */
+}
+
+table, th, td {
+  border: 1px solid #a1dc0b; /* Perkecil ketebalan garis */
+}
+
+th, td {
+  padding: 12px; /* Perkecil padding */
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Ubah warna baris genap */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  padding: 20px 0; /* Tambah padding atas dan bawah */
+  background-color: #dedb07; /* Ganti warna background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambah bayangan */
+}
